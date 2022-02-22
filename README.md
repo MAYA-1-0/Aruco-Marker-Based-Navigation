@@ -39,4 +39,7 @@ When two planes are not parallel to each other calculations are much more comple
 ![img](https://github.com/MAYA-1-0/Aruco-Marker-Based-Navigation/blob/main/images/Screenshot%20from%202022-02-22%2023-16-52.png)
 
 
+##### Marker detection and Pose Estimation
+![img](https://github.com/MAYA-1-0/Aruco-Marker-Based-Navigation/blob/main/images/Screenshot%20from%202022-02-22%2023-25-16.png)
+
 
