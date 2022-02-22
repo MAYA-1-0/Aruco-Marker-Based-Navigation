@@ -12,6 +12,9 @@ An ArUco marker has a wide black border and an inner binary matrix which determi
 
 ArUco Markers are used for the Navigation, Multiple markers can be placed at different locations in a building and can be used to localise the robot and also find the parameters needed to navigate towards any markers in case of automatic docking system for charging. We’ve employed Realsense d455 for visual and depth perception
 
+### Marker Search Algorithm
+![img](https://github.com/MAYA-1-0/Aruco-Marker-Based-Navigation/blob/main/images/Screenshot%20from%202022-02-22%2023-20-04.png)
+
 #### 1 . Robot’s camera plane and Marker’s plane are always parallel- Ideal Case
 
 #####  Marker and Robot's Pose Representation
