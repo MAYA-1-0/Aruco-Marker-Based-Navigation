@@ -7,6 +7,9 @@ Use of fiducial markers in visual navigation is a prominent area of research the
 An ArUco marker has a wide black border and an inner binary matrix which determines its  unique ID. The black border facilitates its fast detection in the image.The marker size determines the size of the internal matrix. For instance a marker size of 4x4 is composed of 16 bits.
 
 
+###  Usage
+
+
 #####     Aruco Markers
 ![image](https://github.com/MAYA-1-0/Aruco-Marker-Based-Navigation/blob/main/images/Screenshot%20from%202022-02-22%2022-21-32.png)
 
