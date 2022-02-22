@@ -27,3 +27,13 @@ With this Robot can easily move towards a marker which is in the frame by travel
 ##### Depth Calculation for Marker
 ![img](https://github.com/MAYA-1-0/Aruco-Marker-Based-Navigation/blob/main/images/Screenshot%20from%202022-02-22%2022-53-43.png)
 
+
+#### 2. Robot’s camera plane and  Marker’s plane are not parallel
+
+When two planes are not parallel to each other calculations are much more complex when compared to the ideal case as there are parallax effects. As represented in the fig theta and depth required to reach the marker in the frame can be found.
+
+#####  Marker and Robot's Pose Representation
+![img](https://github.com/MAYA-1-0/Aruco-Marker-Based-Navigation/blob/main/images/Screenshot%20from%202022-02-22%2023-16-52.png)
+
+
+
