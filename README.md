@@ -14,5 +14,16 @@ ArUco Markers are used for the Navigation, Multiple markers can be placed at dif
 
 #### 1 . Robot’s camera plane and Marker’s plane are always parallel- Ideal Case
 
-![img]()
+#####  Marker and Robot's Pose Representation
+![img](https://github.com/MAYA-1-0/Aruco-Marker-Based-Navigation/blob/main/images/Screenshot%20from%202022-02-22%2022-50-32.png)
+
+
+When the above two planes are parallel, which is only true in ideal cases, depth of the marker can be found from the realsense depth camera, further angle between robot’s x axis and the axis along the aligned centroid of frame and the marker. Let ‘a’ be the height. ‘b’ is the breadth of the detected marker, d is the depth of the marker’s centroid from the robot and d_c is the depth of the centroid of the frame. 
+Let (x,y) be the point of the centroid and (x1,y1) be the centroid of the detected marker.
+To find angle theta, find a new depth ‘d_n’ at point (x1,y) and use basic trigonometric equations to find the angle theta 
+theta=acos(d/d_n)							
+With this Robot can easily move towards a marker which is in the frame by travelling distance and theta calculated as above.
+
+##### Depth Calculation for Marker
+![img](https://github.com/MAYA-1-0/Aruco-Marker-Based-Navigation/blob/main/images/Screenshot%20from%202022-02-22%2022-53-43.png)
 
