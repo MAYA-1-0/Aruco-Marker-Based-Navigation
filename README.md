@@ -7,8 +7,20 @@ Use of fiducial markers in visual navigation is a prominent area of research the
 An ArUco marker has a wide black border and an inner binary matrix which determines its  unique ID. The black border facilitates its fast detection in the image.The marker size determines the size of the internal matrix. For instance a marker size of 4x4 is composed of 16 bits.
 
 
-###  Usage
-'''To be updated'''
+###  Usage and Requirements
+Developed,Tested and Deployed on Nvidia Jetson Nano with Ubuntu 18.04, 
+Opencv (4.1.x +)
+Aruco library (Should come installed with opencv-contrib)
+python 3.x.x
+ROS Melodic
+
+1. For Aruco Based Navigation you will need [Kinematics Repository](https://github.com/MAYA-1-0/KInematics_And_Odometry) Cloned
+2. Clone this repository
+3. There should be 2 packages in the ROS workspace.
+4. Follow the steps given in [Kinematics Repository](https://github.com/MAYA-1-0/KInematics_And_Odometry) for getting wheel base kinematics and Docker started.
+5. Then ROS run following scripts
+
+
 
 #####     Aruco Markers
 ![image](https://github.com/MAYA-1-0/Aruco-Marker-Based-Navigation/blob/main/images/Screenshot%20from%202022-02-22%2022-21-32.png)
