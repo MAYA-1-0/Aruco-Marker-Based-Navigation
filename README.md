@@ -19,6 +19,17 @@ ROS Melodic
 3. There should be 2 packages in the ROS workspace.
 4. Follow the steps given in [Kinematics Repository](https://github.com/MAYA-1-0/KInematics_And_Odometry) for getting wheel base kinematics and Docker started.
 5. Then ROS run following scripts
+```
+rosrun package_name 
+```
+
+```
+rosrun package_name 
+```
+
+```
+rosrun package_name 
+```
 
 
 
